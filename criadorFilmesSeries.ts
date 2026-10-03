@@ -1,10 +1,9 @@
-export interface InterfaceTipoStreaming {
+interface InterfaceTipoStreaming {
     assistir(): void 
     avaliar(): void
     salvar(): void
     favoritar(): void
 }
-
 class Filme implements InterfaceTipoStreaming{
     assistir(): void {}
     avaliar(): void {}
